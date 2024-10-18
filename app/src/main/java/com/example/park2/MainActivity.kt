@@ -67,6 +67,19 @@ fun BasicColumn(modifier: Modifier = Modifier){
             modifier = Modifier.clip(CircleShape)
         )
 
+        Text("Nama",
+        fontSize = 39.sp,
+            fontStyle = FontStyle.Italic
+        )
+
+        Text("Dhea Kania Putry",
+            fontSize = 40.sp,
+            fontStyle = FontStyle.Italic
+        )
+
+        Spacer(modifier = Modifier.padding(20.dp))
+
+        Image(painter = painterResource(id = R.drawable.))
 
     }
 }
