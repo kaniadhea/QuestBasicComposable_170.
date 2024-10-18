@@ -80,7 +80,8 @@ fun BasicColumn(modifier: Modifier = Modifier){
 
         Text("20220140170",
             fontSize = 42.sp,
-            )
+            fontStyle = FontStyle.Italic
+        )
 
         Spacer(modifier = Modifier.padding(20.dp))
 
