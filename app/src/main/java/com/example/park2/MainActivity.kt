@@ -77,7 +77,7 @@ fun BasicColumn(modifier: Modifier = Modifier){
         )
 
         Text("Dhea Kania Putry",
-            fontSize = 39.sp,
+            fontSize = 32.sp,
             fontStyle = FontStyle.Italic
         )
 
