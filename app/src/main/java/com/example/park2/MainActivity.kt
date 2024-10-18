@@ -79,7 +79,8 @@ fun BasicColumn(modifier: Modifier = Modifier){
         )
 
         Text("20220140170",
-            fontSize = )
+            fontSize = 42.sp,
+            )
 
         Spacer(modifier = Modifier.padding(20.dp))
 
