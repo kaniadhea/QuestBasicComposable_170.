@@ -79,7 +79,10 @@ fun BasicColumn(modifier: Modifier = Modifier){
 
         Spacer(modifier = Modifier.padding(20.dp))
 
-        Image(painter = painterResource(id = R.drawable.dhea))
+        Image(painter = painterResource(id = R.drawable.dhea),
+            contentDescription = " ",
+            modifier = Modifier.clip(CircleShape)
+        )
 
     }
 }
