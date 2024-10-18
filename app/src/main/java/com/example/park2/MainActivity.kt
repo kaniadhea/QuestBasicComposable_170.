@@ -46,7 +46,8 @@ fun BasicColumn(modifier: Modifier = Modifier){
         verticalArrangement = Arrangement.Top,
         modifier = Modifier
             .fillMaxSize()
-            .padding(top = 50.dp)
+            .padding(top = 50.dp),
+
     )
     {
         Text("LOGIN",
@@ -77,12 +78,16 @@ fun BasicColumn(modifier: Modifier = Modifier){
             fontStyle = FontStyle.Italic
         )
 
+        Text("20220140170",
+            )
+
         Spacer(modifier = Modifier.padding(20.dp))
 
         Image(painter = painterResource(id = R.drawable.dhea),
             contentDescription = " ",
             modifier = Modifier.clip(CircleShape)
         )
+
 
     }
 }
