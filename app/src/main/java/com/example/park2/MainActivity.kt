@@ -72,7 +72,7 @@ fun BasicColumn(modifier: Modifier = Modifier){
         )
 
         Text("Nama",
-        fontSize = 37.sp,
+        fontSize = 30.sp,
             fontStyle = FontStyle.Italic
         )
 
